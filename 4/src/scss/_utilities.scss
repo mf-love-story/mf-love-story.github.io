@@ -1,0 +1,115 @@
+// Utilities
+
+$utilities: (
+    // BS - Backgrounds
+    "bg-opacity": null,
+    "subtle-background-color": null,
+
+    // BS - Borders
+    "rounded-top": null,
+    "rounded-end": null,
+    "rounded-bottom": null,
+    "rounded-start": null,
+
+    // BS - Colors
+    "text-color": null,
+
+    // BS - Display
+    "display": (responsive: true,
+        print: false,
+        property: display,
+        class: d,
+        values: block flex inline-block none),
+
+    // BS - Flex
+    "flex": null,
+    //"flex-direction": null,
+    "flex-grow": null,
+    "flex-shrink": null,
+    "flex-wrap": null,
+    "justify-content": (responsive: true,
+        property: justify-content,
+        values: (start: flex-start,
+            end: flex-end,
+            center: center,
+            between: space-between)),
+    "align-items": (responsive: false,
+        property: align-items,
+        values: (start: flex-start,
+            end: flex-end,
+            center: center,
+        )),
+    "align-content": null,
+    "align-self": null,
+    //"order": null,
+
+    // BS - Float
+    "float": null,
+
+    // BS - Interactions
+    "user-select": null,
+    "pointer-events": null,
+
+    // BS - Link
+    "link-opacity": null,
+    "link-offset": null,
+    "link-underline": null,
+    "link-underline-opacity": null,
+
+    // BS - Object fit
+    "object-fit": null,
+
+    // BS - Opacity
+    "opacity": null,
+
+    // BS - Overflow
+    "overflow": null,
+    //"overflow-x": null,
+    "overflow-y": null,
+
+    // BS - Width
+    "max-width": null,
+    "viewport-width": null,
+    "min-viewport-width": null,
+    "max-height": null,
+    "viewport-height": null,
+    "min-viewport-height": null,
+
+    // BS - Margin
+    "negative-margin": null,
+    "negative-margin-x": null,
+    "negative-margin-y": null,
+    "negative-margin-top": null,
+    "negative-margin-end": null,
+    "negative-margin-bottom": null,
+    "negative-margin-start": null,
+    "gap": null,
+    "row-gap": null,
+    "column-gap": null,
+
+    // BS - Text
+    "font-family": null,
+    "font-weight": (property: font-weight,
+        class: fw,
+        values: (normal: $font-weight-normal,
+            semibold: $font-weight-semibold,
+            bold: $font-weight-bold)),
+    "line-height": null,
+    "white-space": null,
+    "word-wrap": null,
+
+    // Vertical align
+    "align": null,
+
+    // Visibility
+    "visibility": null,
+
+    // Z-index
+    //"z-index": null,
+
+    // Custom
+    // Letter spacing
+    "letter-spacing": (property: letter-spacing,
+        class: ls,
+        values: $letter-spacers ),
+);

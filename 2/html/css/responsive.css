@@ -1,0 +1,284 @@
+@media only screen and (min-width: 1400px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .menu li a {
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    .appointment {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .dress-descripttion {
+        margin: 0;
+    }
+    .single-gallery .gallhover {
+        line-height: 165px;
+    }
+    .maginfic > img {
+        width: 50px;
+    }
+    .nav-area {
+        top: 62%
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .menu-bg {
+        border-radius: 0;
+    }
+    .appointment {
+        border-radius: 0;
+    }
+    .appointment li a {
+        line-height: 20px;
+    }
+    .menu li a {
+        line-height: 30px;
+        font-size: 13px;
+    }
+    .navbar-brand {
+        left: 15px;
+        top: 10px;
+        width: 170px;
+    }
+    .img-up {
+        bottom: -18px;
+        left: 50%;
+        margin-left: -90px;
+        width: 180px;
+    }
+    .left-arrow,
+    .right-arrow {
+        right: -60px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+    .right-arrow {
+        bottom: 33%;
+    }
+    .left-arrow {
+        top: 33%
+    }
+    .dress-descripttion {
+        margin: 0;
+        padding: 10px;
+    }
+    .single-gallery .gallhover {
+        line-height: 200px;
+    }
+    .perfect-love {
+        right: 0
+    }
+    .footer-content p {
+        line-height: 12px;
+        margin-top: 80px;
+    }
+    .google-map {
+        margin-top: 40px;
+    }
+    .home-area {
+        height: 683px !important;
+    }
+    nav.sticky .navbar-brand {
+        top: 7px
+    }
+    .single-quote h2 {
+        font-size: 26px
+    }
+    .dress-bg::before {
+        display: none;
+    }
+    div.features-image{
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    div.features-image {
+        margin-top: 50px;
+        padding-bottom: 40px;
+    }
+    .dress-bg::before {
+        display: none;
+    }
+    .home-slider .single-slider img {
+        margin-top: 158px;
+    }
+    .home-bg img {
+        margin-top: 158px;
+    }
+    .nav-area {
+        top: 82%;
+        width: 100%;
+    }
+    .home-area {
+        height: 400px !important;
+    }
+    nav.sticky .navbar-brand {
+        width: 100px;
+    }
+    .title-heading {
+        font-size: 20px
+    }
+    .navbar-brand {
+        width: 120px;
+    }
+    .navbar-toggle span {
+        background: #AF89E7 none repeat scroll 0 0;
+    }
+    .single-features {
+        margin-bottom: 60px;
+    }
+    .tesitmonial-content {
+        padding-left: 0;
+        text-align: center;
+    }
+    .testimonial-img {
+        display: inline-block;
+        float: none;
+        margin: 0;
+        text-align: center;
+    }
+    .single-testimonial {
+        text-align: center;
+    }
+    .tesitmonial-content h3 {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .left-arrow {
+        bottom: 1%;
+        font-size: 20px;
+        height: 40px;
+        line-height: 40px;
+        right: 37%;
+        top: auto;
+        width: 40px;
+    }
+    .right-arrow {
+        bottom: 1%;
+        font-size: 20px;
+        height: 40px;
+        line-height: 40px;
+        right: 53%;
+        top: auto;
+        width: 40px;
+    }
+    .single-testimonial {
+        padding: 50px 50px 70px;
+    }
+    .dress-descripttion {
+        margin: 0;
+        padding: 10px;
+    }
+    .perfect-love {
+        position: relative;
+        right: 0;
+        top: 0
+    }
+    .perfect-dress-content {
+        height: 345px;
+        padding: 45px 0;
+    }
+    .single-features {
+        text-align: center;
+    }
+    .menu-bg {
+        background-color: transparent;
+        border-radius: 0
+    }
+    .menu {
+        background: #222;
+        text-align: center;
+        position: relative;
+        z-index: 525;
+        margin-top: 0;
+        margin-right: 0
+    }
+    .appointment li {
+        text-align: center;
+    }
+    .navbar {
+        background: #fff;
+        border-radius: 0;
+        overflow: hidden;
+        padding-top: 10px;
+        padding-bottom: 10px
+    }
+    .appointment {
+        border-radius: 0;
+        margin: 5px 0 0;
+    }
+    .appointment li a {
+        border-radius: 0;
+        line-height: normal;
+        padding-top: 20px
+    }
+    .menu li a {
+        color: #fff;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .menu li:last-child a {
+        padding-bottom: 20px;
+    }
+    .about-image {
+        margin-bottom: 20px;
+    }
+    .about-image:hover img {
+        transform: scale(1.3);
+    }
+    .single-about {
+        margin-bottom: 25px;
+    }
+    .single-gallery .gallhover {
+        line-height: 250px;
+    }
+    .single-bottom-content {
+        margin-bottom: 20px;
+    }
+    .footer-content {
+        line-height: 110px;
+    }
+    .google-map {
+        margin-top: 40px;
+    }
+    .dress-slider {
+        margin-top: 50px;
+    }
+    .single-input.inputhalp {
+        margin-right: 0;
+        width: 100%;
+    }
+    .single-input.inputcaret::before {
+        right: 14%
+    }
+    .single-input.inputcaret {
+        background-position: 95% 50%;
+    }
+    .footer-content a.fa {
+        height: 40px;
+        line-height: 40px;
+        margin-left: 10px;
+        width: 40px;
+    }
+    .footer-content a:first-child {
+        margin-left: 0;
+    }
+    .designer-section {
+      padding-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .gallhover img {
+        width: 50px;
+    }
+    .single-gallery .gallhover {
+        line-height: 190px;
+    }
+}

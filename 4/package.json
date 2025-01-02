@@ -1,0 +1,41 @@
+{
+  "name": "loise",
+  "version": "1.1.0",
+  "description": "Responsive Wedding Invitation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.29.1",
+    "browserify": "^17.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-buffer": "^0.0.2",
+    "gulp-format-html": "^2.0.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.60.0",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "@upjs/facile-validator": "^1.10.0",
+    "bootstrap": "^5.2.3",
+    "imagesloaded": "^5.0.0",
+    "venobox": "^2.0.4"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}

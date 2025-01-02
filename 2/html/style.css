@@ -1,0 +1,694 @@
+/*
+Theme Name: Dear Bride - One Page Wedding Salon HTML Template
+Theme URI: http://envalab.com/html/dear-bride
+Author: THE ENVALAB TEAM
+Author URI: http://envalab.com/
+Description: Dear Bride – One Page Wedding Salon HTML Template is a Creative, Unique, Rich and Modern template especially designed for bridal shops and wedding salon related companies. It's a One Page PSD with 5 color variations, that contains everything bridal shops related companies needs. Keep your every single detail is simple way in one page and efficient for your readers.
+Version: 1.0
+*/
+
+/**
+ *** Table of Content ***
+ * Home Section
+ * Menu Section
+ * Menu right section
+ * Featured Image section
+ * Section Title
+ * About Us Section
+ * Testimonial Section
+ * Latest Dresses Section
+ * Gallery Section
+ * Perfect Dress Section
+ * Designers Section
+ * Make an Appointment Section
+ * Bottom Contact Section
+ * Footer Section
+ * Return Top CSS
+ * Pre Loader Style
+ **/
+
+/* Home Section */
+.home-area {
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+.home-slider {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.home-slider img {
+    width: 100%;
+    height: 100%;
+}
+.home-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.home-bg img{
+    width: 100%;
+    height: 100%;
+}
+.single-quote {
+    background: #fff none repeat scroll 0 0;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    text-transform: uppercase;
+    border-radius: 0 0 4px 4px;
+}
+.single-quote span {
+    color: #e7a989;
+}
+.single-quote h2 {
+    font-size: 31px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+    border-bottom: 2px solid #f8c7ad;
+}
+.single-quote .small-font {
+    font-size: 14px;
+}
+.big-background-default-image {
+    background-image: url(images/welcome-bg.jpg);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+    width:100%;
+    height:100%;
+    z-index:0;
+    backface-visibility:hidden
+}
+/* END of Home Section */
+
+/* Menu Section */
+.menu-bg {
+    background: #fff;
+    position: relative;
+    padding: 0;
+    border-radius: 50px
+}
+.menu li a {
+    color: #333333;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 60px;
+}
+.menu li a span {
+    color: #f8c7ad;
+    padding-left: 10px;
+}
+.menu li:last-child a span {
+    display: none;
+}
+.navbar-brand {
+    left: 0;
+    position: absolute;
+    top: -9px;
+}
+nav.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    z-index: 555;
+}
+nav.sticky .menu-bg {
+  box-shadow: 0 2px 5px #f8c7ad;
+}
+nav.sticky .navbar-brand {
+  left: 5px;
+  position: absolute;
+  top: 0;
+  width: 180px;
+  transition: .4s;
+}
+.navbar{
+    transition: .4s;
+}
+.nav-area {
+    position: absolute;
+    top: 58%;
+    width: 100%;
+}
+
+/* Menu right section */
+.appointment {
+    background: #222 none repeat scroll 0 0;
+    border-radius: 0 50px 50px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.appointment li a {
+    line-height: 60px;
+    color: #fff;
+}
+/* END of Menu Section */
+
+/* Featured Image section */
+div.features-image {
+    margin-top: -130px;
+    position: relative;
+    padding-bottom: 100px;
+}
+.img-up {
+    bottom: -38px;
+    left: 50%;
+    margin-left: -142px;
+    position: absolute;
+}
+/* END of Featured Image section */
+
+/* Section Title */
+.title-heading {
+    font-size: 25px;
+    font-weight: 400;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.section-title {
+    padding-bottom: 60px;
+    color: #e7a989;
+}
+.title-heading::before {
+    background: #f0f0f0 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    margin-right: 9%;
+    position: absolute;
+    right: 0;
+    width: 80%;
+    top: 21px;
+    z-index: -1;
+}
+/* END of Section Title */
+
+/* About Us Section */
+.bold-font p {
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 400;
+}
+.single-about p {
+    margin-bottom: 30px;
+}
+.about-us {
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+.about-image {
+    overflow: hidden;
+    transition: all 0.4s ease 0s;
+}
+.about-image:hover img {
+  transform: scale(1.3) translateY(33px);
+}
+.about-image > img {
+    transition: all 0.4s ease 0s;
+}
+.about-flow {
+    margin-top: 70px;
+}
+.single-about {
+    margin-bottom: 70px;
+}
+/* END of About Us Section */
+
+/* Testimonial Section */
+.testimonial-img {
+    float: left;
+    margin-right: 30px;
+    width: 100px;
+}
+.testimonial-section {
+  padding-top: 40px;
+}
+.tesitmonial-content h3 {
+    color: #3c3c3b;
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+.tesitmonial-content {
+    padding-left: 120px;
+}
+.single-testimonial {
+    background: #f7f7f7 none repeat scroll 0 0;
+    padding: 50px;
+}
+.left-arrow {
+    border-radius: 50%;
+    font-size: 30px;
+    height: 70px;
+    line-height: 70px;
+    position: absolute;
+    right: -85px;
+    text-align: center;
+    width: 70px;
+    z-index: 5;
+    top: 20%;
+    border: 1px solid #f8c7ad;
+    transition: .4s;
+    background-color: transparent;
+    color: #3c3c3b;
+}
+.right-arrow {
+    border-radius: 50%;
+    font-size: 30px;
+    height: 70px;
+    line-height: 70px;
+    position: absolute;
+    right: -85px;
+    text-align: center;
+    width: 70px;
+    z-index: 5;
+    bottom: 20%;
+    border: 1px solid #f8c7ad;
+    transition: .4s;
+    background-color: transparent;
+    color: #3c3c3b;
+}
+.right-arrow:hover,
+.left-arrow:hover {
+    background: #f8c7ad;
+}
+/* END of Testimonial Section */
+
+/* Latest Dresses Section */
+.latest-dress {
+    padding: 70px 0;
+}
+.dress-title {
+    float: left;
+    width: 70%;
+}
+.price {
+    float: left;
+    text-align: right;
+    width: 30%;
+}
+.dress-title h3 {
+    color: #e7a989;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+.dress-price {
+    border-bottom: 2px solid #efefef;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+.price p {
+    font-size: 40px;
+}
+.price p span {
+    font-size: 15px;
+    vertical-align: top;
+}
+.dress-descripttion {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 13px 5px #efefef;
+    padding: 20px;
+    margin: 40px;
+}
+.dress-content > ul {
+    padding-top: 25px;
+}
+.dress-content > ul li {
+    margin-bottom: 10px;
+}
+.dress-content > ul li span {
+    color: #e7a989;
+    margin-right: 5px;
+}
+.dress-content {
+    margin-top: 26px;
+}
+.slick-dots li {
+    display: inline-block;
+}
+.slick-dots li button {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #e7a989;
+    border-radius: 50%;
+    font-size: 0;
+    height: 16px;
+    margin-right: 5px;
+    width: 16px;
+}
+.slick-dots li:last-child button {
+    margin-right: 0
+}
+.slick-dots {
+    bottom: 2%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.slick-dots li.slick-active button {
+    background: #e7a989;
+}
+.dress-bg {
+    background: rgba(0, 0, 0, 0) url("images/patch.png") no-repeat scroll left top / 100% 100%;
+}
+.dress-bg::before {
+    background-image: url("images/patch2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: 0;
+    content: "";
+    height: 200px;
+    position: absolute;
+    right: 0;
+    width: 80%;
+}
+/* END of Latest Dresses Section */
+
+/* Gallery Section */
+.single-gallery {
+    float: left;
+    width: 20%;
+    position: relative;
+    overflow: hidden;
+}
+.single-gallery .gallhover {
+    height: 100%;
+    left: 0;
+    line-height: 210px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    background: rgba(248, 199, 173, .8);
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+}
+.single-gallery:hover .gallhover {
+    opacity: 1;
+    visibility: visible;
+}
+.single-gallery > img {
+    transform: scale(1) rotate(0);
+    transition: .4s;
+}
+.single-gallery:hover > img {
+    transform: scale(1.3) rotate(5deg);
+}
+.gallhover img {
+  display: inline-block;
+}
+/* END of Gallery Section */
+
+/* Perfect Dress Section */
+.perfect-dress {
+    padding: 90px 0;
+}
+.perfect-dress-content {
+    height: 265px;
+    padding: 100px 0;
+    background-image: url(images/prefect.png);
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 2px solid #f8c7ad;
+    border-radius: 5px;
+}
+.perfect-dress-content h4 {
+    background: #f8c7ad none repeat scroll 0 0;
+    border-radius: 4px;
+    color: #af6e4b;
+    display: inline-block;
+    font-size: 18px;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+.perfect-dress-content h4 a {
+    color: #fff;
+    text-decoration: underline;
+}
+.perfect-love span {
+    display: block;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #f8c7ad;
+}
+.perfect-love {
+    background: rgba(0, 0, 0, 0) url("images/perfect-love.png") repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    height: 183px;
+    padding: 55px 0;
+    position: absolute;
+    right: -15px;
+    text-transform: uppercase;
+    top: -35px;
+    width: 183px;
+}
+/* END of Perfect Dress Section */
+
+/* Designers Section */
+.single-designer img {
+    opacity: 0.6;
+    transition: all 0.3s ease 0s;
+}
+.single-designer:hover img {
+    opacity: 1;
+}
+.single-designer {
+    text-align: center;
+}
+.single-designer img {
+    display: inline-block;
+}
+.designer-section {
+  padding-bottom: 80px;
+}
+/* END of Designers Section */
+
+/* Make an Appointment Section */
+.contact-section {
+    background: #f8c7ad none repeat scroll 0 0;
+    padding: 100px 0;
+}
+.section-title.contact-title h2 {
+    color: #fff;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.single-input {
+    margin-bottom: 10px;
+}
+.single-input.fullinput {
+    width: 100%;
+}
+.single-input.inputhalp {
+    float: left;
+    width: 49.5%;
+    margin-right: 1%;
+}
+.contact-form {
+    overflow: hidden;
+}
+.contact-form .success,
+.contact-form .error {
+    display: none;
+}
+.contact-form .success  {
+    color: green;
+}
+.contact-form .error  {
+    color: red;
+}
+.single-input input,
+.single-input select {
+    -moz-appearance: none;
+    border: 0 none;
+    border-radius: 5px;
+    height: 45px;
+    width: 100%;
+    padding-left: 10px;
+    color: #acacac;
+    font-size: 15px;
+}
+.single-input.margin-right0.inputhalp {
+    margin-right: 0 !important;
+}
+.single-input.message textarea {
+    border: 0 none;
+    border-radius: 5px;
+    height: 140px;
+    padding: 10px;
+    width: 100%;
+}
+.single-input.submitbutton button {
+    background: #333333 none repeat scroll 0 0;
+    border-radius: 50px;
+    color: #f8c7ad;
+    font-size: 13px;
+    height: 50px;
+    padding: 0;
+    text-transform: uppercase;
+    width: 170px;
+}
+.single-input.submitbutton {
+    margin-top: 25px;
+}
+.single-input select option {
+    background: pink none repeat scroll 0 0;
+    color: #fff;
+}
+.single-input.inputcaret select {
+    background: transparent;
+}
+.single-input.inputcaret {
+  background:  url("images/caret.png") no-repeat scroll 97% 50%;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 5px;
+  position: relative;
+
+}
+.single-input.inputcaret::before {
+  background: #e4e4e4 none repeat scroll 0 0;
+  content: "";
+  height: 30px;
+  margin-top: -15px;
+  position: absolute;
+  right: 7%;
+  top: 50%;
+  width: 1px;
+}
+.single-input.inputcarettime select {
+    background: transparent;
+}
+.single-input.inputcarettime {
+  background: #fff url("images/caret.png") no-repeat scroll 95% 50%;
+  position: relative;
+}
+.single-input.inputcarettime:before {
+background: #e4e4e4 none repeat scroll 0 0;
+  content: "";
+  height: 30px;
+  margin-top: -15px;
+  position: absolute;
+  right: 14%;
+  top: 50%;
+  width: 1px;
+}
+.map{
+    width: 100%;
+    height: 400px;
+}
+/* END of Appointment Section */
+
+/* Bottom Contact Section */
+.bottom-content {
+    background: #f7f7f7 none repeat scroll 0 0;
+    padding: 50px 0;
+}
+.icon img {
+    margin-bottom: 20px;
+}
+.icon i {
+    margin-bottom: 20px;
+    font-size: 55px;
+    color: #f8c7ad;
+}
+/* END of Bottom Contact Section */
+
+/* Footer Section */
+.footer-content {
+    line-height: 180px;
+}
+.footer-content p span {
+    color: #f8c7ad;
+    display: inline-block;
+    padding-right: 5px;
+}
+.footer-content a.fa {
+    border: 1px solid #f8c7ad;
+    border-radius: 50%;
+    color: #333;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 15px;
+    transition: all 0.3s ease 0s;
+    width: 50px;
+}
+.footer-content a.fa:hover {
+    background: #333 none repeat scroll 0 0;
+    border: 0 none;
+    color: #f8c7ad;
+}
+/* END of Footer Section */
+
+/* Return Top CSS */
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    font-size: 30px;
+    left: 15px;
+    margin: 0;
+    position: relative;
+    top: 8px;
+    transition: all 0.3s ease 0s;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+/*END of Return Top CSS */
+
+/* Pre Loader Style */
+.js div#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 988899;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #fff url('images/loader.gif') no-repeat center center;
+}
+/* END of Pre Loader Style */

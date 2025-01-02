@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="style.css" />
+
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script>
+	$(document).ready(function() {
+		function filterPath(string) {
+			return string
+			.replace(/^\//,'')
+			.replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+			.replace(/\/$/,'');
+		}
+		var locationPath = filterPath(location.pathname);
+		var scrollElem = scrollableElement('html', 'body');
+
+		$('a[href*=#]').each(function() {
+			var thisPath = filterPath(this.pathname) || locationPath;
+			if (  locationPath == thisPath
+				&& (location.hostname == this.hostname || !this.hostname)
+				&& this.hash.replace(/#/,'') ) {
+				var $target = $(this.hash), target = this.hash;
+			if (target) {
+				var targetOffset = $target.offset().top;
+				$(this).click(function(event) {
+					event.preventDefault();
+					$(scrollElem).animate({scrollTop: targetOffset}, 800, function() {
+						location.hash = target;
+					});
+				});
+			}
+		}
+	});
+
+  // use the first element that is "scrollable"
+  function scrollableElement(els) {
+  	for (var i = 0, argLength = arguments.length; i <argLength; i++) {
+  		var el = arguments[i],
+  		$scrollElement = $(el);
+  		if ($scrollElement.scrollTop()> 0) {
+  			return el;
+  		} else {
+  			$scrollElement.scrollTop(1);
+  			var isScrollable = $scrollElement.scrollTop()> 0;
+  			$scrollElement.scrollTop(0);
+  			if (isScrollable) {
+  				return el;
+  			}
+  		}
+  	}
+  	return [];
+  }
+
+
+  $(function() {
+  	$('#accordion .content').hide();
+  	$('#accordion h2:first').addClass('active').next().slideDown('slow');
+  	$('#accordion h2').click(function() {
+  		if($(this).next().is(':hidden')) {
+  			$('#accordion h2').removeClass('active').next().slideUp('slow');
+  			$(this).toggleClass('active').next().slideDown('slow');
+  		}
+  	});
+  });
+
+
+});
+
+</script>
+<title>Forever Love | Elegant Wedding & Agency HTML Template</title>
+</head>
+
+<body>
+	<div class="wrapper"> 
+		<div class="left-side-menu">
+			<a href="http://themeforest.net/user/themexriver" target="_blank" title=""><img src="images/logo.jpg" alt="logo" /></a>
+			<ul>
+				<li><a href="#block1" title="">Introduction</a></li>
+				<li><a href="#block2" title="">Prominent Features</a></li>
+				<li><a href="#block3" title="">Javasripts</a></li>
+				<li><a href="#block4" title="">Css Files</a></li>
+				<li><a href="#block5" title="">Code Structure</a></li>
+				<li><a href="#block6" title="">How to</a></li>
+				<li><a href="#block7" title="">Credits</a></li>
+			</ul>
+		</div>
+
+		<div class="container">
+			<div class="top-box">
+				<div class="title">
+					<h1 id="top">Forever Love - Elegant Wedding & Agency HTML Template</h1>
+				</div>
+			</div>
+			<div class="content">
+				<div class="section">			
+					<div class="title">
+						<h2 id="block1">Introduction:</h2>
+					</div>
+					<p>Forever love is the elegant wedding & agency HTML Template. Forever love is the best suited for Wedding agency business n personal wedding. This is a business template that is help full for Wedding...</p>
+
+					
+				</div>  
+
+				<div class="section">			
+					<div class="title">
+						<h2 id="block2">Prominent Features:</h2>
+					</div>
+					<ul>
+						<li>Light, 100% responsive and fully flexible premium HTML template</li>
+						<li>Neat, clean and simple design</li>
+						<li>Cross browser compatible</li>
+						<li>Fully featured HTML homepage</li>
+						<li>Advanced version of Revolution Slider (Save $15)</li>
+						<li>Unique and Creative Header Style</li>
+						<li>Awesome Footer Styles</li>
+						<li>Built-in latest SEO features</li>
+						<li>Owl Carousel2 included</li>
+						<li>High Resolution picture graphics</li>
+						<li>Unlimited color schemes</li>
+						<li>Super Responsive</li>
+						<li>Built in slides for Revolution Slider</li>
+						<li>Well managed CSS file with proper table of content</li>
+						<li>Properly Commented and indented HTML files.</li>
+						<li>Boxed and Wide Layout</li>
+						<li>Optimized</li>
+						<li>Built with bootstrap 3.3.6</li>
+						<li>Google Fonts & Font Awesome</li>
+						<li>1370 pixel width</li>
+						<li>HTML5 Validated</li>
+						<li>Developed with jQuery Code</li>
+						<li>Detailed and complete documentation</li>
+					</ul>
+				</div>
+				<div class="section">			
+					<div class="title">
+						<h2 id="block3">Javasripts:</h2>
+					</div>
+					<p><strong>bootstrap.min:</strong>As the name suggests, This is the Bootstrap file which enables the JQuery functionalities provided by Bootstrap.</p>
+					<p><strong>perfect-scrollbar.jquery.min & perfect-scrollbar:</strong>The customized scroll bar in different section has been designed with the help of this particular plugin.</p>
+					<p><strong>jquery.min:</strong>This particular jQuery file renders functionality to all the other jQuery files featured in the Lord HTML template.</p>				
+					<p><strong>owl.carousel.min:</strong>The working of all the carousels is based on this file. Owl Carousel is one of the best responsive carousels that works with the touch swipe on the small devices like ipad, mobiles etc.</p>
+					<p><strong>jquery.poptrox.min:</strong>The functionality of the lightbox has been put using this jquery plugin Poptrox.It supports all the lightbox for images videos like vimeo, youtube, iframes, soundcloud etc.</p>
+					<p><strong>jquery.downCount</strong>The downcount is used for the timer in a template.</p>
+					<p><strong>onscreen</strong>Onscreen is used to give animations to the visible elements.</p>
+					<p><strong>styleswitcher</strong>This file is used for style switching in the template.</p>
+					<p><strong>scrollr.min</strong>This file is used to give scrollr effect to the elements in the template.</p>
+					<p><strong>script.js:</strong>It contains all the jQuery functions that have been incorporated in the template.</p>
+				</div>
+				<div class="section">			
+					<div class="title">
+						<h2 id="block4">Css Files:</h2>
+					</div>
+					<p><strong>style.css</strong>This is the main style file on which the overall styling of the template is based.</p>
+					<p><strong>responsive.css</strong>This CSS file gets automatically activated when you are using the template on smaller screen sizes. </p>
+					<p><strong>bootstrap.min.css</strong>As the theme has been developed on ‘bootstrap’, all the styles of this framework are based on this CSS file.</p>
+					<p><strong>font-awesome.min.css</strong>It is actually fontawesome file which is named as 'icon.css'. The icons used in tempaltes are used by adding the fontawesome in the tamplete.</p>
+					<p><strong>perfet-scrollbar.css</strong>This file is used for the styling of the scrollbar in the template.</p>
+					<p><strong>color.css</strong>As the name suggests this file belongs to the color scheme of the template.</p>
+				</div>   
+
+				<div class="section">			
+					<div class="title">
+						<h2 id="block5">CODE STRUCTURE:</h2>
+					</div>
+					<div class="screenshot"><img src="images/screenshot9.jpg" alt="" /></div>				
+				</div>
+
+				<div class="section">			
+					<div class="title">
+						<h2 id="block6">How to</h2>
+					</div>
+
+					<div id="accordion">	
+
+						<h2>How to make a header sticky?</h2>
+						<div class="content">
+							<p>You can make any header sticky simply by using a class i.e<code>"stick"</code>For example, if you want to make the header sticky, just add the class <code>"stick"</code> in this way:</p>
+							<p><code>&lt;div class="creative-header stick"></code></p>
+						</div>														
+
+						<h2>How to manage gaps between the sections?</h2>
+						<div class="content">
+							<p>For the top and bottom spacing for each section, the class <code>"block"</code>has been used, which applies 90 pixels spacing to the section from the top and bottom.</p>
+							<p>You can manage the inter-section spacing easily according to your page flow.When you use sections one after another then the spacing between the two sections becomes 180 pixels as the bottom space of the top section and the top space of the bottom section will join, and it will become awkward spacing.To manage this spacing between the consecutive sections use class <code>"remove-gap"</code> with the <code>"block"</code> class in the section from which you want to avoid top space.</p>
+							<p><code>&lt;div class="block remove-gap"></code></p>
+
+						</div>
+
+						<h2>How to make your own color scheme?</h2>
+						<div class="content">
+							<p>If you want to use your own color scheme in the template, it is very easy to define and apply it. Go to the "css" folder. You will find "colors" folder inside it. In this folder, you can locate "color.css" file. Open any it in the editor, you will see a long list of classes separated with commas (,). Here you need to change the css properties for the background, color and border. For this purpose, just change the color code in that file and thats all.</p>
+						</div>
+
+						<h2>How to switch between white and pattern background?</h2>
+						<div class="content">
+							<p>There is a class, name "pattern" in the coding. If you want a pattern background, just apply the “pattern” class. For a white background, you just need to remove the class “pattern” from the code and the background will be automatically white.</p>
+							<p>For Pattern Background:</p>
+							<p><code>&lt;div class="block pattern"></code></p>
+						</div>
+
+						<h2>How to customize Owl Carousel for animations, slide switching, slideshow auto play, etc.?</h2>
+						<div class="content">
+							<p>Auto Play Slideshow: If you want an auto play slideshow, go to Owl Carousel initialization and add the code “autoplay:true” there as illustrated below:</p>
+							<pre>
+								<code class="long-code"> 
+									$('.services-carousel').owlCarousel({
+									autoplay:true,
+									autoplayTimeout:30000,
+									smartSpeed:2000,
+									loop:true,
+									dots:false,
+									nav:true,
+									margin:10,
+									singleItem:true,
+									items:1,
+									animateIn:"fadeIn",
+									animateOut:"fadeOut"
+								});
+							</code>	
+						</pre>
+						<p>If you want to deactivate the feature of auto play, just remove the code “autoplay:true” from the Owl Carousel initialization. In this case, the slides can be switched with the help of navigation buttons provided to the sides.</p>
+						<p>Set Slide Switching through Fade In/Fade Out Animations:
+							If you want the next slide switching through fading, use the code “animateIn:"fadeIn", animateOut:"fadeOut" in the Owl Carousel initialization as illustrated below:</p>
+							<pre>	
+								<code class="long-code">
+									animateIn:"fadeIn",
+									animateOut:"fadeOut"
+								</code>
+							</pre>
+							<p>Set Speed for Carousel Slides: You can set the sliding speed as per your taste. For this, enter the code “autoplayTimeout:30000, smartSpeed:2000” in the Owl Carousel initialization and change its value as you want. It is illustrated below:</p>
+							<pre>	
+								<code class="long-code">
+									autoplayTimeout:30000,
+									smartSpeed:2000
+								</code>
+							</pre>
+							<p>For further guidance, go to the live documentation of Owl Carousel by following this link:<a href="http://www.owlcarousel.owlgraphic.com/">http://www.owlcarousel.owlgraphic.com/</a></p>
+						</div>
+
+						<h2>How to switch between boxed and wide layout?</h2>
+						<div class="content">
+							<p>The Template supports both boxed and wide layouts. By default the template is full width. You can convert any page to boxed layout just by adding a class <code>boxed</code> to a div having class <code>"theme-layout"</code> in this way:</p>
+							<p><code>&lt;div class = "theme-layout boxed"></code></p>
+							<p>When you make your page boxed now you also need a background image to make it look beautilfull. In order to add a backgroud to the page, change your <code>&lt;body></code> to this <code>&lt;body style="background-image: url(images/parallax3.jpg);"></code>. Put the path of your image in the URL brackets. Now Your webpage is converted into boxed layout. </p>
+							<p>An example page is also given in the package to make it more easier for you named index-boxed.html</p>
+						</div>
+
+					</div>				
+				</div>	
+				<div class="section">			
+					<div class="title">
+						<h2 id="block7">Credits</h2>
+					</div>
+					<p>The credit for the development of this marvelous template goes to:</p>
+					<ul>
+						<li>Google Fonts</li>
+						<li>Bootstrap</li>
+						<li>Flat Icons</li>
+						<li>Owl Carousel</li>
+						<li>Developers of Javascript files which have been utilized herein. </li>
+						<li>Team of Stillidea</li>
+					</ul>
+				</div>  
+			</div>
+		</div>
+	</div>
+</body>
+</html>
