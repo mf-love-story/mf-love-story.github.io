@@ -105,7 +105,7 @@
         display: none;
     }
     .home-slider .single-slider img {
-        margin-top: 158px;
+        /* margin-top: 158px; */
     }
     .home-bg img {
         margin-top: 158px;
@@ -115,7 +115,7 @@
         width: 100%;
     }
     .home-area {
-        height: 400px !important;
+        height: 250px !important;
     }
     nav.sticky .navbar-brand {
         width: 100px;
