@@ -2145,6 +2145,9 @@ img {
   padding: 120px 0;
   position: relative;
 }
+.image-2 {
+  background: url("../images/wishes-bg-2.jpg") center center/cover no-repeat local !important;
+}
 
 .wishes-section:before {
   content: "";
