@@ -1,6 +1,0 @@
-----------22 April 17 V 1.1-------------------
-- Fixed: YouTube Video Background for mobile devices
-- Fixed: PHP Contact Form
-
-----------18 January 17 V 1.0-------------------
-- Initial release

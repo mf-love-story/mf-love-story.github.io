@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Loise - Theme Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- bootstrap style -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- main style -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- font-awesome icon -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <!-- et-line-awesome icon -->
+    <link rel="stylesheet" href="css/et-line-icons.css" />
+    <!-- scrollbar -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
+    <link rel="stylesheet" href="css/doc.min.css" />
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="images/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <!-- Begin Body -->
+    <div class="container-fluid no-padding">
+        <div class="row no-margin">
+            <div class="col-md-12">
+                <div class="docs-navigation no-padding-left" id="leftCol">
+                    <ul class="nav nav-stacked" id="sidebar">
+                        <li class="active"><a class="sec-link" href="#start">Start</a>
+                            <ul>
+                                <li><a href="#start-welcome" class="inner-link">Welcome</a></li>
+                                <li><a href="#start-installation" class="inner-link">Installation</a></li>
+                                <li><a href="#start-installation-node-js" class="inner-link">Installation (Node.js)</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="sec-link" href="#change-background">Change Background</a></li>
+                        <li><a class="sec-link" href="#contact-form">RSVP Form</a></li>
+                        <li><a class="sec-link" href="#credits">Credits & Sources</a></li>
+                        <li><a class="sec-link" href="#refund-policy">Refund Policy</a></li>
+                    </ul>
+                    <span class="copyright text-center">&copy; 2024. <a href="https://themeforest.net/user/lucky_roo" class="text-primary" target="_blank">lucky_roo</a></span>
+                </div>
+                <div class="docs-content" id="mainCol">
+                    <!-- start section -->
+                    <section id="start">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12 docs-content-inner" id="start-welcome">
+                                    <h1>Loise - Responsive Wedding Invitation</h1>
+                                    <p>Dear customers, thank you for choosing our products. In this document, you will find an in-depth description of all the template's features and functionality.</p>
+                                    <p>If you have any questions not attended to by our template documentation, please contact us. If you like our template, please leave your feedback. Thanks :)</p>
+                                    <p>
+                                        <strong>Template Version:</strong> 1.1<br>
+                                        <strong class="bold">By:</strong> <a href="https://themeforest.net/user/lucky_roo" class="text-primary" target="_blank">lucky_roo</a><br>
+                                        <strong class="bold">Response time (up to):</strong> 1 business day.<br>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 docs-content-inner" id="start-installation">
+                                    <h1>Installation</h1>
+                                    <p>Follow the steps below to setup your site template:</p>
+                                    <p>Please note that <strong>Loise</strong> is a simple HTML template and not a Wordpress theme/plugin.</p>
+                                    <ol>
+                                        <li>Log into your hosting space via an FTP software (Filezilla for example).</li>
+                                        <li>Unzip the downloaded package and open the <strong>loise-html/html</strong> folder to find all the template files.</li>
+                                        <li>Below is the folder structure and needs to be uploaded to your website root directory:
+                                            <ul>
+                                                <li><code>html/css</code> - Stylesheets folder</li>
+                                                <li><code>html/images</code> - Images folder</li>
+                                                <li><code>html/img</code> - Images folder</li>
+                                                <li><code>html/js</code> - Javacripts folder</li>
+                                                <li><code>html/index.html</code> – HTML file</li>
+                                                <li><code>html/rsvp.php</code> – RSVP form PHP file</li>
+                                            </ul>
+                                        </li>
+                                        <li>Upload the HTML files corresponding to the variant of your choice along with all directories in the structure that they appear in your download package. Then, the HTML file should reside in the root directory, and all other files should reside inside their associated folder. <strong>You should upload all or specific HTML files as per your need.</strong></li>
+                                    </ol>
+
+                                    <br>
+                                    <p><span class="label label-danger">Tips</span> Do not start from scratch, use an existing page from the demo and modify it to learn how it works.</p>
+                                </div>
+                            </div>
+                            <div class="line"></div>
+
+                            <div class="row">
+                                <div class="col-md-12 docs-content-inner" id="start-installation-node-js">
+                                    <h1>Installation (Node.js)</h1>
+                                    <p>Follow the steps below to setup your site template:</p>
+
+                                    <ol>
+                                        <li class="margin-bottom-20">
+                                            <p>Make sure to have Node.js installed & running on your computer. You can skip this step if your existing node version is greater than 18. We suggest you to use LTS version of Node.js. Open your terminal at the root directory of the project <strong>(loise-html folder)</strong>. Check your Node.js version using <code>node -v</code> command.</p>
+                                            <img src="images/installation-nodejs-1.jpg" alt="" class="margin-bottom-20" />
+                                            <img src="images/installation-nodejs-2.jpg" alt="" />
+                                        </li>
+
+                                        <li class="margin-bottom-20">
+                                            <p>Enter the command <code>npm install</code>. This would install all the required dependencies in the <strong>node_modules</strong> folder.</p>
+                                            <img src="images/installation-nodejs-3.jpg" alt="" />
+                                        </li>
+
+                                        <li>
+                                            <p>After you finished with the above steps, you can run the following commands into the terminal/command prompt from the root directory of the project <strong>(loise-html folder)</strong> to run the project locally or build for production use:</p>
+
+                                            <ul class="margin-bottom-20">
+                                                <li><code>gulp</code>: Compile sass & js files and generate css & js files.</li>
+                                                <li><code>gulp watch</code>: Runs the project locally, starts the development server. The development server is accessible at http://localhost:3000/.</li>
+                                            </ul>
+
+                                            <img src="images/installation-nodejs-4.jpg" alt="" class="margin-bottom-20" />
+                                            <img src="images/installation-nodejs-5.jpg" alt="" class="margin-bottom-20" />
+                                            <img src="images/section-hero.jpg" alt="" />
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- end start section -->
+
+                    <!-- change background section -->
+                    <section id="change-background" class="hidden">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12 docs-content-inner">
+                                    <h1>Change Background</h1>
+
+                                    <ol>
+                                        <li class="margin-bottom-20">
+                                            <p><strong>Section -Love Story</strong></p>
+                                            <img src="images/section-love-story.jpg" alt="" class="margin-bottom-20" />
+                                            <img src="images/change-background-1.jpg" alt="" />
+                                        </li>
+                                        <li class="margin-bottom-20">
+                                            <p><strong>Section - Wedding Gifts</strong></p>
+                                            <img src="images/section-wedding-gifts.jpg" alt="" class="margin-bottom-20" />
+                                            <img src="images/change-background-2.jpg" alt="" />
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="line"></div>
+                        </div>
+                    </section>
+                    <!-- end change background section -->
+                     
+                    <!-- contact form section -->
+                    <section id="contact-form" class="hidden">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12 docs-content-inner">
+                                    <h1>RSVP Form</h1>
+
+                                    <p>Your RSVP form will not work unless you have your files running on a hosting server with PHP and Javascript. When you have your files ready on your hosting server, you need to edit the settings to make the email function work. To do this, please open <code>html/rsvp.php</code> file and change this line:</p>
+                                    <pre>
+// Replace with your email 
+$mail_to = 'youremail@yourdomain.com';
+</pre>
+
+                                    <p><span class="label label-danger">Important</span><br>Some hosting providers don't support <strong>PHP Mail Function</strong> automatically. So if you don't receive any message after changing mail address to yours, then contact with your hosting provider and they'll enable PHP Mail function. And everything would be great.</p>
+                                </div>
+                            </div>
+                            <div class="line"></div>
+                        </div>
+                    </section>
+                    <!-- end contact form section -->
+
+                    <!-- credits section -->
+                    <section id="credits" class="hidden">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12 docs-content-inner" id="credits">
+                                    <h1>Credits and Sources</h1>
+                                    <p>We would really love to take this opportunity to appreciate guys whose items were helpful to us to make Loise a really beautiful theme for our awesome users:</p>
+                                    <div class="col-md-12 no-padding">
+                                        <div class="col-md-12">
+                                            <h2 class="no-padding-top">Plugins</h2>
+                                            <ul class="credits">
+                                                <li><a href="http://getbootstrap.com/" class="text-primary" target="_blank">Bootstrap</a></li>
+                                                <li><a href="https://upjs.github.io/facile-validator/" class="text-primary" target="_blank">Facile Validator</a></li>
+                                                <li><a href="https://imagesloaded.desandro.com/" class="text-primary" target="_blank">imagesLoaded</a></li>
+                                                <li><a href="https://veno.es/venobox/" class="text-primary" target="_blank">VenoBox</a></li>
+                                            </ul>
+                                            <br>
+                                            <br>
+                                            <h2 class="no-padding-top">Images used on demo</h2>
+                                            <p>The images included in preview are for demonstration purposes and should always be replaced with your own work.</p>
+                                            <ul class="credits">
+                                                <li>Photo by <a href="https://www.freepik.com/serie/7015887" class="text-primary" target="_blank">Freepik</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line"></div>
+                        </div>
+                    </section>
+                    <!-- end credits section -->
+
+                    <!-- refund policy section -->
+                    <section id="refund-policy" class="hidden">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12 docs-content-inner" id="credits">
+                                    <h1>Refund Policy</h1>
+                                    <p>Read this <a href="https://themeforest.net/page/customer_refund_policy" class="text-primary" target="_blank">Article</a> before asking for a refund. The refund request will not be accepted in the following cases by the article:</p>
+                                    <img src="images/refund-policy.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="line"></div>
+                        </div>
+                    </section>
+                    <!-- end refund policy section -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- scroll to top -->
+    <a href="javascript:;" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
+    <!-- scroll to top End... -->
+    <div id="footer"></div>
+    <script type='text/javascript' src="js/jquery.min.js"></script>
+    <script type='text/javascript' src="js/jquery.easing.1.3.js"></script>
+    <script type='text/javascript' src="js/bootstrap.min.js"></script>
+    <script type='text/javascript' src="js/smooth-scroll.js"></script>
+    <script type='text/javascript' src="js/jquery.mCustomScrollbar.min.js"></script>
+    <script type='text/javascript' src="js/custom.js"></script>
+</body>
+
+</html>

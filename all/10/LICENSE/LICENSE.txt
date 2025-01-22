@@ -1,0 +1,12 @@
+Font license info
+
+
+## Entypo
+
+   Copyright (C) 2012 by Moel Bruce
+
+   Author:    Moel Bruce
+   License:   SIL (http://scripts.sil.org/OFL)
+   Homepage:  http://www.entypo.com
+
+

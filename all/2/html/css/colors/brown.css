@@ -1,0 +1,74 @@
+.single-quote {
+    background: #debd8a none repeat scroll 0 0;
+}
+.single-quote h2 {
+    border-bottom: 2px solid #ffffff;
+}
+.single-quote span {
+    color: #ffffff;
+}
+.menu li a span {
+    color: #debd8a;
+}
+nav.sticky .menu-bg {
+  box-shadow: 0 2px 5px #debd8a;
+}
+.section-title {
+    color: #debd8a;
+}
+.left-arrow, .right-arrow {
+    border: 1px solid #debd8a;
+}
+.right-arrow:hover,
+.left-arrow:hover {
+    background: #debd8a;
+}
+.dress-title h3 {
+    color: #debd8a;
+}
+.dress-content > ul li span {
+    color: #debd8a;
+}
+.slick-dots li button {
+    border: 1px solid #debd8a;
+}
+.slick-dots li.slick-active button {
+    background: #debd8a;
+}
+.single-gallery .gallhover {
+    background: rgba(222, 189, 138, .8);
+}
+.perfect-dress-content {
+    border: 2px solid #debd8a;
+}
+.perfect-dress-content h4 {
+    background: #debd8a none repeat scroll 0 0;
+    color: #ffffff;
+}
+.perfect-dress-content h4 a {
+    color: #ffffff;
+}
+.perfect-love span {
+    color: #debd8a;
+}
+.contact-section {
+    background: #debd8a none repeat scroll 0 0;
+}
+.section-title.contact-title h2 {
+    color: #ffffff;
+}
+.single-input.submitbutton button {
+    color: #debd8a;
+}
+.icon i {
+    color: #debd8a;
+}
+.footer-content p span {
+    color: #debd8a;
+}
+.footer-content a.fa {
+    border: 1px solid #debd8a;
+}
+.footer-content a.fa:hover {
+    color: #debd8a;
+}
