@@ -164,7 +164,7 @@
         speed: 1000,
         parallax: true,
         autoplay: {
-            delay: 6500,
+            delay: 4000,
             disableOnInteraction: false,
         },
         watchSlidesProgress: true,
@@ -435,7 +435,7 @@
         = COUNTDOWN CLOCK
     -------------------------------------------*/
     if ($("#clock").length) {
-        $('#clock').countdown('2020/2/14', function(event) {
+        $('#clock').countdown('2025/3/11', function(event) {
             var $this = $(this).html(event.strftime(''
             + '<div class="box"><div><div class="time">%D</div> <span>Days</span> </div></div>'
             + '<div class="box"><div><div class="time">%H</div> <span>Hours</span> </div></div>'
